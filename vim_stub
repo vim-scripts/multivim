@@ -1,0 +1,4 @@
+#/lusr/bin/bash
+# Stub for vim.
+
+vim --servername $RANDOM "$@"

@@ -1,0 +1,63 @@
+This is a mirror of http://www.vim.org/scripts/script.php?script_id=324
+
+Based on bcbuf.vim (vimscript #201), this script allows the user to open a new vim window from within vim, and manage the buffers in all open vim sessions (windows) in a centralized manner. One can:
+
+
+
+
+
+
+
+
+
+0. Open a new vim window from within vim by the command ":nf"
+
+
+
+
+
+
+
+
+
+1. Yank and Put across multiple sessions using the usual mappings.
+
+
+
+
+
+
+
+
+
+2. Edit a file, first in one session, then in another, using :edit, :split, :vsplit, etc.
+
+
+
+
+
+
+
+
+
+3. Look at all buffers in all sessions using :files, :buffers, etc.
+
+
+
+
+
+
+
+
+
+4. Push a command from one session's history and pop it in another.
+
+
+
+
+
+
+
+
+
+For more details look at the comments at the start of the script. 
